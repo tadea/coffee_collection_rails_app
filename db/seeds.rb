@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+grind1 = Grind.create(name: "French Press")
+grind2 = Grind.create(name: "Pour Over")
+grind3 = Grind.create(name: "Espresso")
