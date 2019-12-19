@@ -1,24 +1,43 @@
-# README
+# Coffee Collection
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Summary
+ 
+Coffee Collection is a simple app for coffee lovers. Enjoy in exploring coffees from all around the world and give it a review. User can create own personal coffee collection as well.
 
-* Ruby version
 
-* System dependencies
+## Installation for OS X, Windows, Linux
 
-* Configuration
+- Clone this repository and execute:
 
-* Database creation
+`bundle`
 
-* Database initialization
+Uses Ruby ~> v2.6.5
 
-* How to run the test suite
+- Migrate the database by running:
 
-* Services (job queues, cache servers, search engines, etc.)
+`rake db:migrate`
 
-* Deployment instructions
+- Start up the server by running:
 
-* ...
+ `rails s`
+
+- Then open page in browser according to web address displayed in terminal (ex. https://localhost:3000)
+
+
+## Built With
+*Ruby on Rails* - *Omniauth-Facebook* - *Bootstrap* - *Bcrypt*
+
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/tadea/coffee_collection_rails_app.git
+
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+
