@@ -20,6 +20,7 @@ def fbcreate
     u.email = auth['info']['email']
     u.password = auth['uid']
   end
+  binding.pry
     session[:user_id] = @user.id
     redirect_to coffees_path
 end

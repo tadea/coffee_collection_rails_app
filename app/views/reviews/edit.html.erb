@@ -1,12 +1,12 @@
 <div class="col-md-6 col-md-offset-3">
 
-	<div class="edit-review-form">
+	<div>
 
-    <h1>Edit Review</h1>
-
+    <h2>Edit Review</h2>
+<br>
     <%= form_for ([@coffee, @review]) do |f| %>
-    <%= f.label :comment   %>
-    <%= f.text_area :comment %>
+    <%= f.label :comment%><br>
+    <%= f.text_area :comment %><br>
 
     <%= f.submit class: "btn-custom2" %>
     <% end %>
